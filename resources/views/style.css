@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+#status {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background: red;
+  display: inline-block;
+}
+
+#status.online {
+  background: green;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.121);
+  border-radius: 3px;
+  margin: 2rem auto;
+  background-color: #323232;
+  color: white;
+}
+#content ::-webkit-scrollbar {
+  width: 7px;
+  background: #3a3a3a;
+}
+
+#content ::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+#content header {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.121);
+  background: rgba(0, 0, 0, 0.02);
+}
+
+#content section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#content section {
+  height: 320px;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+
+#content section ul li {
+  padding: 5px 2px;
+}
+
+#content footer {
+  display: flex;
+}
+#content footer textarea {
+  flex: 1;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  color: white;
+  background: #545454;
+  padding: 1rem;
+  outline: none;
+}
