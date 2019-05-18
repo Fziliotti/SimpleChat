@@ -1,28 +1,18 @@
-# Adonis API application
+# Simple Chat with AdonisJS/HTML5/CSS3
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+## Study
+Clone the repo and then run `npm install`.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+Run `adonis serve --dev`
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
+On the resources/views folder, open the index.html on the browser and enjoy 😃
 
 
-### Migrations
+## Info
 
-Run the following command to run startup migrations.
+AdonisJs is a Node.js web framework with a breath of fresh air and drizzle of elegant syntax on top of it. We prefer developer joy and stability over anything else.
 
-```js
-adonis migration:run
-```
+I created this project with `adonis new ChatAdonis --api-only`
+Then I installed the websocket with `adonis install @adonisjs/websocket`
+Created the socket client and the Ws channel "chat" with the ChatController.
+For the layout I use just CSS3..✔
