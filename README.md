@@ -16,3 +16,7 @@ AdonisJs is a Node.js web framework with a breath of fresh air and drizzle of el
 - Then I installed the websocket with `adonis install @adonisjs/websocket`
 - Created the socket client and the Ws channel "chat" with the ChatController.
 - For the layout I use just CSS3..✔
+
+### Print 
+
+![print screen of project](./Screenshot_6.png)
